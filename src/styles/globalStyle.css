@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    /* cores */
+    --cor-primaria: #4C6EF5;
+    --cor-secundaria: #364FC7;
+
+    --cor-grey-0: #191C1F;
+    --cor-grey-1: #212529;
+    --cor-grey-2: #343a40;
+    --cor-grey-3: #ADB5BD;
+    --cor-grey-4: #ced4dA;
+    --cor-grey-5: #F8F9FA;
+
+    /* fontes */
+    --font-family: 'inter';
+
+    --titulo-1: 52px;
+    --titulo-2: 40px;
+    --titulo-3: 32px;
+    --titulo-4: 28px;
+    --titulo-5: 20px;
+    --titulo-6: 18px;
+
+    --peso-titulo-1: 600;
+    --peso-titulo-2: 400;
+
+    --texto-0: 18px;
+    --texto-1: 16px;
+    --texto-2: 14px;
+    --texto-3:12px;
+
+    /* margens */
+    --margem-lateral: 120px;
+    --margem-titulo-texto: 40px;
+
+    /* padding */
+    --padding-interno-texto: 80px;
+
+    /* altura dos botões */
+    --altura-botao: 10px;
+    --input: 12px;
+
+    /* largura dos botões */
+    --largura-botao: 12px;
+    
+
+    /* bordas */
+    --radius: 4px;
+}

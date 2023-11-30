@@ -1,0 +1,14 @@
+.footer__conteiner{
+    position: relative;
+    z-index: 1;
+
+    height: 80px;
+
+    background-color: var(--cor-grey-0);
+}
+.footer__conteiner h3{
+    font-size: var(--titulo-5);
+    color: var(--cor-grey-3);
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-1);
+}

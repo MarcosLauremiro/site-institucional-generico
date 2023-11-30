@@ -1,0 +1,27 @@
+#header .header__logo{
+    font-size: var(--titulo-4);
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-2);
+
+    color: var(--cor-grey-5);
+    
+    margin-left: var(--margem-lateral);
+}
+#header .header__button{
+    background-color: transparent;
+    border: 2px solid var(--cor-grey-4);
+
+    font-family: var(--font-family);
+    color: var(--cor-grey-4);
+    font-size: var(--texto-2);
+
+    margin-right: var(--margem-lateral);
+    
+    padding: var(--altura-botao) var(--largura-botao);
+}
+#header .header__button:hover{
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+    transition: .3s;
+    cursor: pointer;
+}

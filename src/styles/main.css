@@ -1,0 +1,209 @@
+#main .main__sobre{
+    flex-direction: column;
+
+    height: 60vh;
+    width: 90vw;
+}
+#main .main__sobre h1{
+    font-size: var(--titulo-1);
+    font-family: var(--font-family);
+    color: var(--cor-grey-5);
+    font-weight: var(--peso-titulo-1);
+}
+#main .main__sobre h1 span{
+    font-family: var(--font-family);
+
+    color: var(--cor-primaria);
+}
+#main .main__sobre p{
+    font-family: var(--font-family);
+    color: var(--cor-grey-3);
+    text-align: center;
+
+    width: 50vw;
+
+    margin-top: var(--margem-titulo-texto);
+}
+#main .main__sobre > span{
+    color: var(--cor-grey-4);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--texto-2);
+
+    background-color: var(--cor-primaria);
+
+    padding: var(--altura-botao) var(--largura-botao);
+
+    margin-top: var(--margem-titulo-texto);
+}
+#main .main__sobre > span:hover{
+    background-color: var(--cor-secundaria);
+    
+    transition: .3s;
+
+    cursor: pointer;
+}
+
+#main .main__quem-somos{
+    justify-content: space-between;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+
+    background-color: var(--cor-grey-0);
+
+    height: 30vh;
+}
+#main .main__quem-somos h2{
+    color: var(--cor-grey-5);
+    font-size: var(--titulo-4);
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-1);
+    
+    margin: var(--margem-lateral);
+
+}
+#main .main__quem-somos span{
+    margin: var(--margem-lateral);
+
+}
+#main .main__quem-somos span p{
+    color: var(--cor-grey-3);
+    font-size: var(--texto-1);
+    font-family: var(--font-family);
+}
+
+#main .section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--margem-lateral);
+
+    padding: var(--margem-lateral);
+}
+#main .section .section__duvidas{
+    flex-direction: column;
+    align-items: start;
+}
+#main .section .section__duvidas h2{
+    color: var(--cor-grey-5);
+    font-size: var(--titulo-3);
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-1);
+
+    margin-bottom: var(--margem-titulo-texto);
+}
+#main .section .section__duvidas p{
+    color: var(--cor-grey-3);
+    font-size: var(--texto-1);
+    text-align: start;
+    font-family: var(--font-family);
+
+    margin-bottom: var(--margem-titulo-texto);
+}
+#main .section .section__duvidas span{
+    color: var(--cor-grey-4);
+    background-color: var(--cor-primaria);
+    font-family: var(--font-family);
+    font-size: var(--texto-2);
+
+    padding: var(--altura-botao) var(--largura-botao);
+}
+#main .section .section__duvidas span:hover{
+    background-color: var(--cor-secundaria);
+    
+    transition: .3s;
+
+    cursor: pointer;
+}
+#main .section .section__principais__duvidas{
+    display: grid;
+
+    flex-direction: column;
+}
+#main .section .section__principais__duvidas span{
+    font-family: var(--font-family);
+    font-size: var(--texto-2);
+}
+#main .section .section__principais__duvidas span h3{
+    color: var(--cor-grey-5);
+    font-size: var(--titulo-5);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-2);
+}
+#main .section .section__principais__duvidas span p{
+    color: var(--cor-grey-3);
+    font-family: var(--font-family);
+    font-size: var(--texto-2);
+
+    margin: var(--margem-titulo-texto) 0;
+}
+
+#main .section__comentarios{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: var(--margem-lateral);
+
+    padding: var(--margem-lateral);
+}
+#main .div__comentarios{
+
+}
+#main .div__comentarios .ul__comentarios{
+    flex-direction: column;
+}
+#main .div__comentarios .ul__comentarios li{
+
+}
+#main .div__comentarios .ul__comentarios li div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: var(--margem-lateral);
+} 
+#main .div__comentarios .ul__comentarios li div span{
+    flex-direction: column; 
+    justify-content: start;
+
+    margin-top: var(--margem-titulo-texto);
+}
+#main .div__comentarios .ul__comentarios li div span > h3{
+    font-size: var(--titulo-5);
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-1);
+
+    color: var(--cor-grey-4); 
+}
+#main .div__comentarios .ul__comentarios li div span > p{
+    font-family: var(--font-family);
+    font-size: var(--texto-2);
+
+    color: var(--cor-grey-3);
+}
+#main .div__comentarios .ul__comentarios li div > p{
+    color: var(--cor-grey-4);
+    font-family: var(--font-family);
+    font-size: var(--texto-2);
+
+    margin-top: var(--margem-titulo-texto);
+}
+#main .section__comentarios .box__comentario{
+    margin-top: var(--margem-titulo-texto);
+
+    background-color: var(--cor-primaria);
+
+    height: 50vh;
+
+    padding: var(--margem-titulo-texto);
+}
+#main .section__comentarios .box__comentario h2{
+    color: var(--cor-grey-5);
+    font-size: var(--titulo-4);
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-2);
+}
+#main .section__comentarios .box__comentario p{
+    color: var(--cor-grey-5);
+    font-family: var(--font-family);
+    font-size: var(--texto-2);
+}

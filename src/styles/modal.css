@@ -1,0 +1,89 @@
+dialog{
+    width: 30vw;
+    height: 50vh;
+
+    background-color: var(--cor-grey-1);
+
+    border: none;
+    border: 2px solid var(--cor-primaria);
+}
+dialog .modal__conteiner{
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 30vw;
+    height: 50vh;
+
+    padding: 20px;
+}
+dialog .modal__conteiner div{
+    justify-content: space-between;
+
+    width: 30vw;
+
+    padding: 20px
+}
+dialog .modal__conteiner div h1{
+    font-size: var(--titulo-4);
+    font-family: var(--font-family);
+    font-weight: var(--peso-titulo-2);
+
+    color: var(--cor-grey-5);
+}
+dialog .modal__conteiner div button{
+    background-color: var(--cor-grey-2);
+    color: var(--cor-grey-3);
+
+    padding: 4px 7px;
+
+    border: none;
+    border-radius: var(--radius);
+
+    cursor: pointer;
+}
+dialog .modal__conteiner > p{
+    color: var(--cor-grey-3);
+}
+dialog .modal__conteiner form{
+    flex-direction: column;
+
+    width: 30vw;
+
+    gap: 20px;
+}
+dialog .modal__conteiner form input{
+    padding: var(--input) 0;
+    width: 90%;
+
+    border: 1.5px solid transparent;
+
+    background-color: var(--cor-grey-0);
+    color: var(--cor-grey-3);
+    
+}
+dialog .modal__conteiner form input::placeholder{
+    text-align: start;
+    padding: 10px;
+
+    color: var(--cor-grey-3);
+}
+dialog .modal__conteiner form input:focus{
+    border: 1.5px solid var(--cor-secundaria);
+
+    outline: var(--cor-secundaria);
+
+}
+dialog .modal__conteiner form button{
+    padding: var(--input) 0;
+    width: 90%;
+
+    border: none;
+
+    background-color: var(--cor-primaria);
+    color: var(--cor-grey-5);
+
+    cursor: pointer;
+}
+dialog .modal__conteiner form button:hover{
+    background-color: var(--cor-secundaria);
+}
